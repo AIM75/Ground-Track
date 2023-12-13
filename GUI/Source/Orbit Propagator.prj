@@ -1,0 +1,81 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="4159908261" file="D:\Projects\First_year\ground_track\Orbital_ground_track_GUI_Optimized_stop_button_bug\Orbital_ground_track\Gound_Track\GUI\Source\Orbit Propagator.prj" location="D:\Projects\First_year\ground_track\Orbital_ground_track_GUI_Optimized_stop_button_bug\Orbital_ground_track\Gound_Track\GUI\Source" name="Orbit Propagator" target="target.mlapps" target-name="Package App">
+    <param.appname>Orbit Propagator</param.appname>
+    <param.authnamewatermark>Ahmed Ibrahim</param.authnamewatermark>
+    <param.email>ahmedibrahimmohamed75@gmail.com</param.email>
+    <param.company>AIM</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\ahmed\AppData\Local\Temp\tp3f6f00fe_d780_473e_8a99_e47231c6332c.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>D:\Projects\First_year\ground_track\Orbital_ground_track_GUI_Optimized_stop_button_bug\Orbital_ground_track\Gound_Track\GUI\Install</param.output>
+    <param.guid>151816e1-bb14-462f-b88d-161022235bfc</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app1.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>D:\Projects\First_year\ground_track\Orbital_ground_track_GUI_Optimized_stop_button_bug\Orbital_ground_track\Gound_Track\V3\land_ocean_ice_2048.jpg</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\Projects\First_year\ground_track\Orbital_ground_track_GUI_Optimized_stop_button_bug\Orbital_ground_track\Gound_Track\GUI" name="Install" optional="false">D:\Projects\First_year\ground_track\Orbital_ground_track_GUI_Optimized_stop_button_bug\Orbital_ground_track\Gound_Track\GUI\Install</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
